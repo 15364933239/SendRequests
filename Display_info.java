@@ -31,25 +31,7 @@ public class Display_info extends Activity{
     private ProgressDialog progress;
 
     View v;
-    /*
-    public class Student {
-        public String sid;
 
-
-        Student() {
-            EditText input;
-            input = (EditText) findViewById(R.id.sid_input);
-            sid = input.getText().toString();
-        }
-        public String getSid() {
-            return sid;
-        }
-    }
-*/
-
-  //  Student student = new Student();
-
-            //student.getSid();
 
     @Override
     public void onCreate(Bundle savedInstanceState)  {
@@ -156,8 +138,9 @@ public class Display_info extends Activity{
                                     //((TextView) findViewById(R.id.course_list)).setText(courses);
 
                                 }
+                                //Here trying to display dynamic number of JsonObject course on listview
 
-                                ListView list= (ListView) findViewById(R.id.course_list);
+                               // ListView list= (ListView) findViewById(R.id.course_list);
 
 
                             } catch (JSONException e) {
